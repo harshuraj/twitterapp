@@ -1,10 +1,10 @@
 
 # twitterapp
-####This web application will extract the URLs from the tweets from your home timeline and will be saved to be viewed in future
-####I have used Python 3.6.5, Tweepy 3.3.0 and Django 2.0.5
+#This web application will extract the URLs from the tweets from your home timeline and will be saved to be viewed in future
+##I have used Python 3.6.5, Tweepy 3.3.0 and Django 2.0.5
 
 ###Installation
-**Install virtual environment
+**Install virtual environment**
 `pip install virtualenv`
 
 **Create a virtual environment**
