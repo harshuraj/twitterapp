@@ -91,7 +91,7 @@ img {
             <th scope="row"></th>
             <td>{{product.name}}</td>
             <td>{{product.pub_date}}</td>
-            <td>{{product.url}}</td>
+            <td><a href={{product.url}}>{{product.url}}</a></td>
         </tr>
         {% endfor %}
     </tbody>
