@@ -9,10 +9,10 @@ def home(request):
 	#csecret=request.POST['cssecret']
 	#atoken=request.POST['attoken']
 	#asecret=request.POST['assecret']
-	ckey='RU1y7RD1QkUhz7yGCJhnXVBre'
-	csecret='edq2ZWYribc1EIHKmDkirmAOGFeM8epAiJa4w9gJX8b9k7ZljK'
-	atoken='972772531496202240-BIjYJxl6yVKFf63RTA5Fa5fbhfgnKQG'
-	asecret='8qr06qvIx2KD1iDaB2VXIwofq3WL9URkBZxsxSD6P4PnO'
+	ckey=''#Enter your consumer
+	csecret=''#Enter your consumer secret
+	atoken=''#Enter your access token 
+	asecret=''#Enter your access token secret
 	url=re.compile(r'(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([^/. ]*\/?)*')
 
 	auth = OAuthHandler(ckey, csecret)
