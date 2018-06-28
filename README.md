@@ -1,3 +1,4 @@
+
 # twitterapp
 ####This web application will extract the URLs from the tweets from your home timeline and will be saved to be viewed in future###
 ####I have used Python 3.6.5, Tweepy 3.3.0 and Django 2.0.5
@@ -32,6 +33,7 @@
 ![alt text](./readImg/landing.png)
 
 ####If the provided credentials are correct, then the user will see a different page having a list of Friends Name, the URL they tweeted within a tweet and the date on which it was tweeted
+![alt text](./readImg/output.png)
 
 
 
